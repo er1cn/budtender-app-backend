@@ -61,3 +61,4 @@ Strain.create!(
     description: 'AK-47 is a powerful hybrid cannabis strain which is well known for its high potency. It massively reliefs the body without producing extreme after effects.', 
     image: 'https://cdn.shopify.com/s/files/1/1644/1417/products/AK-47_Strain_1024x1024.jpg?v=1557282557', 
     flavors: 'Woody, Oaky, Sweet, Skunky, Earthy' )
+
