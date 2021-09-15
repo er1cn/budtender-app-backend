@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+puts '🌱 Seeding...'
+
 Strain.create!(
     name: 'Blue Dream', 
     description: 'Blue Dream is a hybrid strain, slightly heavier on the sativa side, coming in at 60 percent sativa and 40 percent indica. The strain is a cross between two popular strains, Blueberry and Haze. Therefore, this particularly potent strain often has THC levels measuring upwards of 20 percent.', 
@@ -62,3 +64,17 @@ Strain.create!(
     image: 'https://cdn.shopify.com/s/files/1/1644/1417/products/AK-47_Strain_1024x1024.jpg?v=1557282557', 
     flavors: 'Woody, Oaky, Sweet, Skunky, Earthy' )
 
+User.create!(user:'pumpkins', password: 'ftTv7AJU')
+User.create!(user:'rosecocoa', password: 'vPSJLm2T')
+User.create!(user:'heatham', password: 'kEpdd39T')
+User.create!(user:'golfbeach', password: '5oE9ipFE')
+User.create!(user:'grapeswan', password: 'iPWkD44E')
+User.create!(user:'sodarocky', password: 'Lwku3kvi')
+User.create!(user:'sheeprat', password: 'uetJy9Wr')
+User.create!(user:'cheetah', password: '8okBKusx')
+User.create!(user:'lizardcat', password: 'intm7BcQ')
+User.create!(user:'relishcat', password: '5F4DkueG')
+
+
+
+puts '✅ Done seeding!'
