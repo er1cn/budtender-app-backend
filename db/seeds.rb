@@ -64,16 +64,16 @@ Strain.create!(
     image: 'https://cdn.shopify.com/s/files/1/1644/1417/products/AK-47_Strain_1024x1024.jpg?v=1557282557', 
     flavors: 'Woody, Oaky, Sweet, Skunky, Earthy' )
 
-User.create!(user:'pumpkins', password: 'ftTv7AJU')
-User.create!(user:'rosecocoa', password: 'vPSJLm2T')
-User.create!(user:'heatham', password: 'kEpdd39T')
-User.create!(user:'golfbeach', password: '5oE9ipFE')
-User.create!(user:'grapeswan', password: 'iPWkD44E')
-User.create!(user:'sodarocky', password: 'Lwku3kvi')
-User.create!(user:'sheeprat', password: 'uetJy9Wr')
-User.create!(user:'cheetah', password: '8okBKusx')
-User.create!(user:'lizardcat', password: 'intm7BcQ')
-User.create!(user:'relishcat', password: '5F4DkueG')
+User.create!(username:'pumpkins', password: 'ftTv7AJU')
+User.create!(username:'rosecocoa', password: 'vPSJLm2T')
+User.create!(username:'heatham', password: 'kEpdd39T')
+User.create!(username:'golfbeach', password: '5oE9ipFE')
+User.create!(username:'grapeswan', password: 'iPWkD44E')
+User.create!(username:'sodarocky', password: 'Lwku3kvi')
+User.create!(username:'sheeprat', password: 'uetJy9Wr')
+User.create!(username:'cheetah', password: '8okBKusx')
+User.create!(username:'lizardcat', password: 'intm7BcQ')
+User.create!(username:'relishcat', password: '5F4DkueG')
 
 
 

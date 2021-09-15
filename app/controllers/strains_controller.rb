@@ -11,7 +11,7 @@ class StrainsController < ApplicationController
         strain = Strain.find(params[:id])
         render json: strain
     rescue ActiveRecord::RecordNotFound
-        render json: "Bird not found", status: :not_found
+        render json: "Strain not found", status: :not_found
     end
 
     #POST /strains
