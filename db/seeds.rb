@@ -62,33 +62,34 @@ s10=Strain.create!(
     description: 'Pineapple Express is a potent flower with a clean, tropical taste. It offers a delightful cerebral high and relaxes the body. Furthermore, this strain has a delicious taste that makes it distinct from other strains.', 
     image: 'https://cdn.shopify.com/s/files/1/1644/1417/products/Pineapple_Express_Strain_1024x1024.jpg?v=1557282398', 
     flavors: 'Tropical, Pineapple, Mango, Sweet' )
-s11=Strain.create!(
-    name: 'AK 47', 
-    description: 'AK-47 is a powerful hybrid cannabis strain which is well known for its high potency. It massively reliefs the body without producing extreme after effects.', 
-    image: 'https://cdn.shopify.com/s/files/1/1644/1417/products/AK-47_Strain_1024x1024.jpg?v=1557282557', 
-    flavors: 'Woody, Oaky, Sweet, Skunky, Earthy' )
+# s11=Strain.create!(
+#     name: 'AK 47', 
+#     description: 'AK-47 is a powerful hybrid cannabis strain which is well known for its high potency. It massively reliefs the body without producing extreme after effects.', 
+#     image: 'https://cdn.shopify.com/s/files/1/1644/1417/products/AK-47_Strain_1024x1024.jpg?v=1557282557', 
+#     flavors: 'Woody, Oaky, Sweet, Skunky, Earthy' )
 
-U1=User.create!(user_id:'pumpkins', password: 'ftTv7AJU')
-U2=User.create!(user_id:'rosecocoa', password: 'vPSJLm2T')
-U3=User.create!(user_id:'heatham', password: 'kEpdd39T')
-U4=User.create!(user_id:'golfbeach', password: '5oE9ipFE')
-U5=User.create!(user_id:'grapeswan', password: 'iPWkD44E')
-U6=User.create!(user_id:'sodarocky', password: 'Lwku3kvi')
-U7=User.create!(user_id:'sheeprat', password: 'uetJy9Wr')
-U8=User.create!(user_id:'cheetah', password: '8okBKusx')
-U9=User.create!(user_id:'lizardcat', password: 'intm7BcQ')
-U10=User.create!(user_id:'relishcat', password: '5F4DkueG')
+u1=User.create!(user_id:'pumpkins', password: 'ftTv7AJU')
+u2=User.create!(user_id:'rosecocoa', password: 'vPSJLm2T')
+u3=User.create!(user_id:'heatham', password: 'kEpdd39T')
+u4=User.create!(user_id:'golfbeach', password: '5oE9ipFE')
+u5=User.create!(user_id:'grapeswan', password: 'iPWkD44E')
+u6=User.create!(user_id:'sodarocky', password: 'Lwku3kvi')
+u7=User.create!(user_id:'sheeprat', password: 'uetJy9Wr')
+u8=User.create!(user_id:'cheetah', password: '8okBKusx')
+u9=User.create!(user_id:'lizardcat', password: 'intm7BcQ')
+u10=User.create!(user_id:'relishcat', password: '5F4DkueG')
+# u11=User.create!(user_id:'relit', password: '5F4DkmuG')
 
-r1=Review.create!(text: 'impressed me on multiple levels.', rating: 5)
-r2=Review.create!(text: 'Really good. I would gladly pay over.', rating: 5)
-r3=Review.create!(text: 'Fantastic, totally blown away.', rating: 4.5)
-r4=Review.create!(text: 'Strain is killer.', rating: 4)
-r5=Review.create!(text: 'Dude, this stuff is the bomb.', rating: 4.5)
-r6=Review.create!(text: 'Very calming.', rating: 4)
-r7=Review.create!(text: 'has got everything I need.', rating: 5)
-r8=Review.create!(text: 'awesome!', rating: 5)
-r9=Review.create!(text: 'completely blown away.', rating: 4.5)
-r10=Review.create!(text: 'The best one the net!', rating: 3.5)
+r1=Review.create!(text: 'impressed me on multiple levels.', rating: 5, strain_id: s1.id, user_id: u1.id)
+r2=Review.create!(text: 'Really good. I would gladly pay over.', rating: 5, strain_id: s2.id, user_id: u2.id )
+r3=Review.create!(text: 'Fantastic, totally blown away.', rating: 4.5, strain_id: s3.id, user_id: u3.id)
+r4=Review.create!(text: 'Strain is killer.', rating: 4, strain_id: s4.id, user_id: u4.id)
+r5=Review.create!(text: 'Dude, this stuff is the bomb.', rating: 4.5, strain_id: s5.id, user_id: u5.id)
+r6=Review.create!(text: 'Very calming.', rating: 4, strain_id: s6.id, user_id: u6.id)
+r7=Review.create!(text: 'has got everything I need.', rating: 5, strain_id: s7.id, user_id: u7.id)
+r8=Review.create!(text: 'awesome!', rating: 5, strain_id: s8.id, user_id: u8.id)
+r9=Review.create!(text: 'completely blown away.', rating: 4.5, strain_id: s9.id, user_id: u9.id)
+r10=Review.create!(text: 'The best one the net!', rating: 3.5, strain_id: s10.id, user_id: u10.id)
 
 
 
