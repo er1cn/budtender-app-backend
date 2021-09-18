@@ -39,5 +39,5 @@ class StrainsController < ApplicationController
     def strain_params
         params.permit(:name, :description, :image, :flavors )
     end
-    
+
 end
