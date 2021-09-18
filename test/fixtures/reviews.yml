@@ -1,9 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  description: MyString
+  text: MyString
   rating: 1.5
+  strain: one
+  user: one
 
 two:
-  description: MyString
+  text: MyString
   rating: 1.5
+  strain: two
+  user: two
