@@ -1,11 +1,11 @@
 class ReviewsController < ApplicationController
-  def index
-    if params[:strain_id]
-      strain = Strain.find(params[:strain_id])
-      reviews = strain.reviews
-    else
-      reviews = Review.all
-    end
-    render json: reviews, include: :strain
+  def show
+      review = Review.find(params[:id])
+      render json: review
   end
+  
+  def index
+        reviews = Review.all
+        render json: reviews
+    end
 end

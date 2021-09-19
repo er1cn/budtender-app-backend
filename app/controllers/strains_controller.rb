@@ -9,7 +9,7 @@ class StrainsController < ApplicationController
     #GET /strains/:id
     def show
         strain = Strain.find(params[:id])
-        render json: strain
+        render json: strain , include: :reviews
     rescue ActiveRecord::RecordNotFound
         render json: "Strain not found", status: :not_found
     end
