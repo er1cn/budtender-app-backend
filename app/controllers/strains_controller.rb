@@ -1,4 +1,6 @@
 class StrainsController < ApplicationController
+    
+
 
   #GET /strains
     def index
